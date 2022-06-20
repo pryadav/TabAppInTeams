@@ -1,0 +1,12 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Microsoft",
+      "unitTestsEnabled": false,
+      "lintingSupport": false,
+      "useAzureAppInsights": false
+    },
+    "libraryName": "tabInTeamsNoSso",
+    "generator-version": "3.5.0"
+  }
+}

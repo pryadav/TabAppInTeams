@@ -1,0 +1,69 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "showLoadingIndicator": true,
+  "id": "65f30ebb-46a5-4b2e-bb21-61d9eeb31ae6",
+  "packageName": "com.microsoft.teams.tab",
+  "developer": {
+    "name": "preeti",
+    "websiteUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io",
+    "privacyUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/tou.html"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "TabInTeamsNoSSO",
+    "full": "TabInTeamsNoSSO"
+  },
+  "description": {
+    "short": "",
+    "full": ""
+  },
+  "accentColor": "#FFFFFF",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/tabInTeamsNoSsoTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ],
+      "context": [
+        "channelTab",
+        "privateChatTab",
+        "meetingSidePanel",
+        "meetingDetailsTab",
+        "meetingChatTab",
+        "meetingStage"
+      ]
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "65f30ebb-46a5-4b2e-bb21-61d9eeb31ae6",
+      "name": "TabNoSSO",
+      "contentUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/tabInTeamsNoSsoTab/index.html",
+      "websiteUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io",
+      "scopes": [
+        "personal"
+      ]
+    },
+    {
+      "entityId": "about",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io"
+  ]
+}

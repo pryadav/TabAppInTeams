@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "id": "65f30ebb-46a5-4b2e-bb21-61d9eeb31ae6",
+  "version": "1.0.0",
+  "packageName": "tabinteamsnosso",
+  "developer": {
+    "name": "Preeti",
+    "websiteUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io",
+    "privacyUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "TabInTeamsNoSSO",
+    "full": "TabInTeamsNoSSO"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io/tabInTeamsNoSsoTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "0437-2a01-4b00-88c8-8900-d42-ed6d-d83c-5460.ngrok.io"
+  ],
+  "showLoadingIndicator": true,
+  "isFullScreen": false
+}
